@@ -8,4 +8,9 @@ if active_key_id >= 0 {
 		sprite_index = spr_button
 		self.was_active = is_active
 	}
+	if !is_active && self.was_active {
+		// newly inactive
+		sprite_index = spr_button_dead
+		self.was_active = is_active
+	}
 }

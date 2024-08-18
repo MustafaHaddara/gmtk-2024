@@ -4,7 +4,7 @@ global.keys = {
 	blue2: array_create(2, false),
 
 	// green level uses 2 keys
-	green1: array_create(3, false),	
+	green1: array_create(2, false),	
 	green2: array_create(3, false),	
 	
 	// red level uses 4 keys

@@ -1,6 +1,6 @@
 event_inherited()
 
-if get_global_key(key_id) {
+if door_should_open(key_id, inverted) {
 	image_index = 1
 } else {
 	image_index = 0
