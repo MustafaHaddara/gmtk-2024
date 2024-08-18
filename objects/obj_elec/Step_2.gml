@@ -1,0 +1,1 @@
+set_global_key(key_id, is_colliding)
