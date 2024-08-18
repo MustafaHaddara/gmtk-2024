@@ -8,7 +8,7 @@ global.keys = {
 	green2: array_create(3, false),	
 	
 	// red level uses 4 keys
-	red: array_create(4, false)
+	red1: array_create(4, false)
 }
 
 global.scale = 1
