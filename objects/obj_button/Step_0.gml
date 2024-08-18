@@ -5,7 +5,11 @@ if active_key_id >= 0 {
 	
 	if !self.was_active && is_active {
 		// newly active
-		sprite_index = spr_button
+		if is_pressed {
+			sprite_index = spr_button_pressed
+		} else {
+			sprite_index = spr_button
+		}
 		self.was_active = is_active
 	}
 	if !is_active && self.was_active {

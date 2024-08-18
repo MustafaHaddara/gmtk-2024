@@ -13,4 +13,5 @@ if !door_should_open(key_id, inverted) {
 	_d.image_yscale = self.image_yscale
 	
 	instance_destroy(self)
+	set_colliders()
 }

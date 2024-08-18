@@ -39,6 +39,7 @@
     {"name":"inst_7F611999","path":"rooms/rm_blue_1/rm_blue_1.yy",},
     {"name":"inst_72676FDC","path":"rooms/rm_blue_1/rm_blue_1.yy",},
     {"name":"inst_1C07FBB9","path":"rooms/rm_blue_1/rm_blue_1.yy",},
+    {"name":"inst_5347D77B","path":"rooms/rm_blue_1/rm_blue_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -77,6 +78,11 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":8960.0,"y":7072.0,},
         {"$GMRInstance":"v1","%Name":"inst_410CEB5F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_410CEB5F","objectId":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},"propertyId":{"name":"text","path":"objects/obj_tutorial/obj_tutorial.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Press Q to Zoom Out",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_char_controller","path":"objects/obj_char_controller/obj_char_controller.yy",},"propertyId":{"name":"rm_scale","path":"objects/obj_char_controller/obj_char_controller.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},"propertyId":{"name":"hide_on_key_id","path":"objects/obj_tutorial/obj_tutorial.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":8832.0,"y":7168.0,},
+        {"$GMRInstance":"v1","%Name":"inst_5347D77B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5347D77B","objectId":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},"propertyId":{"name":"text","path":"objects/obj_tutorial/obj_tutorial.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Use WASD or Arrows to move",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_char_controller","path":"objects/obj_char_controller/obj_char_controller.yy",},"propertyId":{"name":"rm_scale","path":"objects/obj_char_controller/obj_char_controller.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},"propertyId":{"name":"hide_on_key_id","path":"objects/obj_tutorial/obj_tutorial.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":8832.0,"y":7136.0,},

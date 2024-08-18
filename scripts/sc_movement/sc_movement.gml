@@ -39,6 +39,7 @@ function set_colliders() {
 	push_active(obj_wall, colliders)
 	push_active(obj_wall_elec, colliders)
 	push_active(obj_door, colliders)
+	push_active(obj_door_close, colliders)
 	
 	global.active_colliders = colliders
 }

@@ -11,4 +11,5 @@ if draw_offset > 0 {
 	_d.image_yscale = self.image_yscale
 	
 	instance_destroy(self)
+	set_colliders()
 }
